@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetQualityMetricsAdHocDataSource", "GetQualityMetricsAdHocDataSource\GetQualityMetricsAdHocDataSource.csproj", "{F61EF66A-5F0D-4E76-830B-4E1BCAA71BE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{8BBF8ED4-CA57-4D7E-9907-0313681CEED8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{2589F04D-C336-4DA2-9680-E4C40F453B06}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F61EF66A-5F0D-4E76-830B-4E1BCAA71BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61EF66A-5F0D-4E76-830B-4E1BCAA71BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61EF66A-5F0D-4E76-830B-4E1BCAA71BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61EF66A-5F0D-4E76-830B-4E1BCAA71BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2589F04D-C336-4DA2-9680-E4C40F453B06} = {8BBF8ED4-CA57-4D7E-9907-0313681CEED8}
+	EndGlobalSection
+EndGlobal
