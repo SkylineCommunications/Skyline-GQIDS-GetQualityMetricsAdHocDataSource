@@ -87,7 +87,7 @@ namespace GetQualityMetricsAdHocDataSource
 			// Use 'using' to ensure HttpClient is disposed properly.
 			using (var client = new HttpClient())
 			{
-				string token = "NpX1KckxyER87ikwFOK7XkXQMpEB2ZdJ8ui47FAIbt8=";
+				
 
 				client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
